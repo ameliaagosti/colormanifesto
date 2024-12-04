@@ -1,0 +1,101 @@
+
+H1 {
+	font-family: Impact, serif;
+	font-size: 5em;
+	color: darkblue;
+    position: fixed;
+    margin-top: 50;
+    margin-bottom: 0;
+	}
+
+H2 {font-family: Georgia, serif;
+	font-size: 2.5em;
+	color: coral;
+	background-color: transparent;
+    }
+
+p {
+	font-family: Didot, serif;
+	font-size: 1.3em;
+	color: darkblue;
+    }
+
+body {
+    background-color: cornflowerblue;
+    margin-top: 10;
+    }
+
+#footer {
+	background-color: coral;
+    font-family: Impact, serif;
+	width: 100%;
+	color: white;
+	}
+
+.wideleftpadding {
+    padding:  20% 5% 5% 30%;
+    }
+
+.toppadding {
+    padding-top: 30% 5% 5% 5%
+    }
+
+
+.bkgimage {
+    width: 50%;
+    height: 50vh;
+    position: fixed;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    object-fit: contain;
+    opacity: 20%;
+    }
+
+
+.typewriter {
+    font-family: Georgia, serif;
+    color:azure;
+    overflow: hidden;
+    border-right: .15em solid coral;
+    white-space: normal; 
+    margin: 0 auto;
+    animation: 
+    typing 5s steps(50, end),
+    blink-caret .75s step-end infinite;
+    }
+
+.headertypewriter {
+    font-family: Impact, serif;
+    color:navy;
+    overflow: hidden;
+    border-right: .15em solid coral;
+    white-space: nowrap; 
+    margin: 0 auto;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    }
+
+.numbertypewriter {
+    font-family: Georgia, serif;
+    color:coral;
+    overflow: hidden;
+    border-right: .15em transparent;
+    white-space: nowrap; 
+    margin: 0 auto;
+    animation: 
+    typing 3.5s steps(40, end);
+    }
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+    }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: coral; }
+    }
