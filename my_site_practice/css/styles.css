@@ -1,0 +1,25 @@
+H1 {
+	font-family: Superclarendon, regular;
+	font-size: 5em;
+	color: powderblue;
+	background-color: ;
+	}
+H2 {
+	font-family: superclarendon, light;
+	font-size: 1.2em;
+	color: powderblue;
+    background-color: ;
+}
+p {
+	font-family: superclarendon, light;
+	font-size: 1.2em;
+	color: white;
+}
+
+body {
+    background-color: coral
+}
+
+.toppadding {
+    padding-top: 30% 5% 5% 5%
+    }
